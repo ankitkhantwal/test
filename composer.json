@@ -1,0 +1,16 @@
+{
+    "name": "php-singleton-crud",
+    "description": "PHP project with singleton pattern, logging, email and CRUD API",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "monolog/monolog": "^2.0",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
