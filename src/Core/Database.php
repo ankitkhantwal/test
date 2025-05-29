@@ -12,7 +12,7 @@ class Database {
     private function __construct() {
         try {
             $this->connection = new PDO(
-                "mysql:host=" . $_ENV['DB_HOST'] . ";dbname=" . $_ENV['DB_NAME'],
+                "mysql:host=localhost;dbname=" . $_ENV['DB_NAME'],
                 $_ENV['DB_USER'],
                 $_ENV['DB_PASS'],
                 [
